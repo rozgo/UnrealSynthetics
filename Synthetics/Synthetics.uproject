@@ -1,0 +1,19 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{1D6D5255-2605-0F09-002E-00503CD31AC5}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "Synthetics",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "UnrealSynthetics",
+			"Enabled": true
+		}
+	]
+}
