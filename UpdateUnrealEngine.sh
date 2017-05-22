@@ -2,6 +2,8 @@
 
 SYNTHETICS_DIR=$(pwd)
 
+ssh-add $SYNTHETICS_DIR/.ssh/civilmaps_rsa
+
 rsync \
     -avz \
     --exclude-from 'UpdateUnrealEngineExclude.txt' \
