@@ -2,6 +2,7 @@
 
 SYNTHETICS_DIR=$(pwd)
 
+chmod 400 $SYNTHETICS_DIR/.ssh/civilmaps_rsa
 ssh-add $SYNTHETICS_DIR/.ssh/civilmaps_rsa
 
 rsync \
