@@ -3,5 +3,5 @@
 .gitattributes
 FeaturePacks/
 Samples/
-Templates/
+
 
