@@ -11,7 +11,7 @@ Temp steps for getting development environment.
 in `UnrealSynthetics/` directory, got from cloning [https://github.com/rozgo/UnrealSynthetics](https://github.com/rozgo/UnrealSynthetics)
 ```
 $ git pull origin master
-$ ./UpdateUnrealEngine.sh
+$ ./SetupUnrealEngine.sh
 $ ./GenerateSyntheticsMakefile.sh
 $ cd Synthetics
 $ make Synthetics
