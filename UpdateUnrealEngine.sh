@@ -17,4 +17,5 @@ rsync \
 
 cd UnrealEngine
 ./Setup.sh
+make
 cd ..
